@@ -5,6 +5,7 @@ body {
 }
 
 #nav {
+  padding-left: 50px;
   background: white;
   border: 0px;
   border-bottom: 1px solid whitesmoke;
@@ -17,10 +18,25 @@ body {
   border: 0px;
 }
 
+#nav > div > a {
+  padding-left: 0px;
+  font-family: 'Questrial', serif;
+  align-self: center;
+  border: 0px;
+}
+
 #logo {
-  padding-top: 23px;
-  border-radius: 80px;
-  background: rgb(41,207,102);
-  width: 70px;
-  height: 70px;
+  width: 90px;
+}
+
+#loginbtn {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 1px;
+}
+
+#signupbtn {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 1px;
 }
